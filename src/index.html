@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        border: 3px solid purple;
+        margin: 20px;
+        padding: 40px;
+      }
+      form {
+        border: 3px solid green;
+        padding: 40px;
+      }
+      button {
+        border: 3px solid black;
+        background-color: goldenrod;
+        width: 100px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1">
+      <form id="form1">
+        <button id="btn">Click me</button>
+      </form>
+    </div>
+
+    <script>
+      const btnClick = document
+        .getElementById("btn")
+        .addEventListener("click", function () {
+          console.log("button Click");
+        });
+    </script>
+  </body>
+</html>

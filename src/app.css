@@ -1,0 +1,19 @@
+#main-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+#carts {
+  box-shadow: 4px 4px 8px gray;
+  width: 300px;
+}
+#card-footer {
+  display: flex;
+  padding: 13px;
+}
+#card {
+  border: 3px solid green;
+  width: 400px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
